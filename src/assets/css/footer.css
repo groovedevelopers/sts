@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+.footer{
+    height: 100vh;
+    background-color: #c7aa85;
+}
+
+.footer .logo{
+    padding: 20px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family: "Island Moments", cursive;
+    border-bottom: 1px solid white;
+}
+
+.footer .menu_container{
+    padding: 30px;
+}
+
+.footer .sec_title{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 4;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer ul li{
+    list-style-type: none;
+    padding: 10px;
+    color: #f1f1f1;
+}
+
+.footer .newsletter{
+    margin: auto;
+  width: 40%;
+  padding: 10px;
+}
+.newsletter .sec_title{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.newsletter input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: transparent;
+    color: #fff !important;
+    outline: none;
+}
+
+.newsletter input::placeholder{
+    color: #fff !important;
+}
+.newsletter input:focus{
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+.newsletter button{
+border: none;
+color: #fff;
+}
+
+.footer .copy_footer{
+    position: relative;
+    height: 15vh;
+}
+
+.footer .copy_footer .copy{
+    
+    position:absolute;
+    bottom:0;
+    border-top: 1px solid #f1f1f1;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer .copy_footer .copy a{
+    color: #85461e;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer{
+        height: 100%;
+    }
+}

@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+
+.header {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1025px) {
+  .menubar {
+    background-color: #85461e;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+  .headbar {
+    width: 100%;
+    background-color: #c7aa85;
+    height: 50px;
+    text-align: center !important;
+  }
+
+  .headbar p {
+    padding: 10px;
+    color: white;
+  }
+
+  .menubar .menu {
+    padding: 5px;
+    width: 45%;
+  }
+
+  .menubar .menu ul {
+    margin-top: 20px;
+  }
+
+  .menubar li {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    list-style: 3px;
+    color: #c7aa85 !important;
+  }
+
+  .menubar .logo {
+    padding: 15px;
+    font-size: 60px;
+    width: 35%;
+    color: white;
+    font-family: "Island Moments", cursive;
+    margin-top: -15px;
+  }
+
+  .menubar .social_menu {
+    width: 30%;
+  }
+
+  .menubar .social_menu ul {
+    text-align: right;
+  }
+
+  .menubar .social_menu .icon {
+    margin-top: 20px;
+    color: #c7aa85 !important;
+  }
+
+  .menubar .social_menu .d_none {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .menubar {
+    background-color: #85461e;
+    height: 100%;
+    display: flex;
+    margin-top: -20px;
+  }
+
+  .headbar {
+    width: 100%;
+    background-color: #c7aa85;
+    height: 100%;
+    text-align: center !important;
+    
+  }
+
+  .headbar p {
+    padding: 25px;
+    color: white;
+  }
+
+  .menubar .menu {
+    display: none;
+  }
+
+  .menubar li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    list-style: 3px;
+    color: #c7aa85 !important;
+  }
+
+  .menubar .logo {
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+    font-family: "Island Moments", cursive;
+    width: 50%;
+  }
+
+  .menubar .social_menu {
+    width: 50%;
+  }
+
+  .menubar .social_menu ul {
+    text-align: right;
+  }
+
+  .menubar .social_menu .icon {
+    margin-top: 20px;
+    color: #c7aa85 !important;
+  }
+
+  .menubar .social_menu .m_none {
+    display: none;
+  }
+}

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    padding:0;
+    height:100%;
+}
+
+body{
+    padding:0;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* BACKDROP SECTION */
+.backdrop{
+    background-image: url('../images/bg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.backdrop .hero_text{
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.backdrop .hero_text h2{
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    padding: 20px;
+    margin-top: 20%;
+    color: #c7aa85;
+}
+
+.backdrop .hero_text p{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #c7aa85;
+}
+
+.backdrop .hero_button{
+    margin: auto;
+   width: 25%;
+   padding: 10px;
+}
+
+.backdrop .hero_button button{
+   border: 1px solid #c7aa85;
+   color: #c7aa85;
+   padding: 30px;
+   font-size: 30px;
+   /* box-shadow: 2px 2px 2px 2px #85461e; */
+   width: 100%;
+   
+}
+
+.backdrop .hero_button button:hover{
+    border: 1px solid #85461e;
+    color: #fff;
+    background-color: #85461e;
+    
+    
+ }
+
+ @media only screen and (max-width: 1024px) {
+    .backdrop{
+        background-image: url('../images/bg.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .backdrop .hero_text h2{
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 5px;
+        padding: 20px;
+        margin-top: 40%;
+        color: #c7aa85;
+    }
+
+    .backdrop .hero_text p{
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #c7aa85;
+    }
+    
+    .backdrop .hero_button{
+        margin: auto;
+       width: 50%;
+       padding: 10px;
+    }
+    
+    .backdrop .hero_button button{
+       border: 1px solid #c7aa85;
+       color: #c7aa85;
+       padding: 30px;
+       font-size: 30px;
+       /* box-shadow: 2px 2px 2px 2px #85461e; */
+       width: 100%;
+       
+    }
+    
+    .backdrop .hero_button button:hover{
+        border: 1px solid #85461e;
+        color: #fff;
+        background-color: #85461e;
+        
+        
+     }
+
+ }
+
+
+ /* CARD COLUMN */
+ .product{
+    
+ }
+
+ .product .section_title{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border-bottom: 1px solid black;
+    padding-bottom: 5px; */
+    
+ }
+
+ .product .card_col{
+padding: 20px;
+ }
+ .product .card_col .product_card{
+    width: 300px;
+    box-shadow: none;
+ }
+
+ .product .card_col .product_card img{
+    object-fit: cover;
+    height: 250px;
+ }
+
+ .product .card_col .product_card .product_title{
+    text-align: center;
+    color: #c7aa85;
+ }
+ .product .card_col .product_card .product_desc{
+    text-align: center;
+ }
+ .product .card_col .product_card .product_price{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #85461e;
+ }
+ .product .card_col .product_card button{
+
+    border: 1px solid #c7aa85;
+       color: #c7aa85;
+       padding: 15px;
+       font-size: 15px;
+       /* box-shadow: 2px 2px 2px 2px #85461e; */
+       width: 100%;
+    
+ }
+
+ .product .card_col .product_card button:hover{
+   border: 1px solid #85461e;
+        color: #fff;
+        background-color: #85461e;
+ }
+
+ /* QUOTES SECTION */
+ .quotes{
+    position:relative;
+    background-image: url('../images/IMG_9215.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 100%;
+ }
+
+ .quotes .quote_text{
+    /* position: absolute; */
+    position:absolute;
+    bottom:0;
+    left:0;
+    height: 200px;
+    width: 430px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-left: 20px;
+ }
+
+ .quotes .quote_text h2{
+    /* text-align: center; */
+    letter-spacing: 10px;
+    font-weight: 700;
+    padding: 12px;
+ }
+
+ .quotes .quote_text p{
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding: 12px;
+    line-height: 1.5;
+ }
+
+
+ /* REVIEWS SECTION */
+
+ .reviews{
+    height: 80vh;
+    
+
+ }
+
+ .reviews .section_title{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border-bottom: 1px solid black;
+    padding-bottom: 5px; */
+    
+ }
